@@ -1,0 +1,39 @@
+{ 
+    "token"  : "[[DISCORD BOT TOKEN]]",
+    "prefix" : "+",
+    "info_node_url": "http://localhost:11331/getinfo",
+    "info_node_icon_url":"https://pool.remixcoin.io/logo.png",
+    "coin_target" : 120,
+    "pools"  : [{
+        "name": "pool.remixcoin.io",
+        "icon_url": "https://pool.remixcoin.io/logo.png",
+        "url": "https://pool.remixcoin.io/",
+        "description": "This is the official developer pool.",
+        "stats_url" :"https://api.remixcoin.io/v1/live_stats",
+        "api_type" : 1
+    }, {
+        "name": "crypto9coin.cf",
+        "icon_url": "https://crypto9coin.cf/rmx/logo.png",
+        "url": "https://crypto9coin.cf/rmx/",
+        "description": "Community Pool by 20dec",
+        "stats_url" :"https://crypto9coin.cf:11334/live_stats",
+        "api_type" : 1
+    },
+    {
+        "name": "remix-pool.com",
+        "icon_url": "https://remix-pool.com/logo.png",
+        "url": "https://remix-pool.com/",
+        "description": "Community Pool by mosu_forge",
+        "stats_url" :"https://remix-pool.com/api/live_stats",
+        "api_type" : 1
+    }],
+    "exchanges" : [{
+        "name": "First Crypto Bank",
+        "icon_url": "https://fcbaccount.com",
+        "url": "https://fcbaccount.com",
+        "description": "First Crypto Bank",
+        "stats_url" :"https://fcbaccount.com/api/public/v1/get/exchange/market?pair=BTC-REMIX",
+        "api_type" : 1
+    }]
+            
+}

@@ -1,0 +1,28 @@
+{
+  "name": "remix-neo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devopsralf/remix-neo-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devopsralf/remix-neo-bot/issues"
+  },
+  "homepage": "https://github.com/devopsralf/remix-neo-bot#readme",
+  "dependencies": {
+    "color-util": "^2.2.1",
+    "discord.js": "^11.4.2",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "randomcolor": "^0.5.3",
+    "request": "^2.88.0",
+    "uws": "^99.0.0"
+  }
+}
