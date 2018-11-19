@@ -214,37 +214,37 @@ client.on("message", async message => {
                 },
                 "fields": [
                 {
-                    "name": "Bid: 💫",
-                    "value": `${getReadableHashRate(body.data.bid)}`,
+                    "name": "Bid: 💰",
+                    "value": `${body.data.bid}`,
                     "inline": true
                 },
                 {
-                    "name": "Ask: 👥",
+                    "name": "Ask: 💸",
                     "value": `${body.data.ask}`,
                     "inline": true
                 },
                 {
-                    "name": "Low: 💫",
-                    "value": `${getReadableHashRate(body.data.low)}`,
+                    "name": "Low: 📉",
+                    "value": `${body.data.low}`,
                     "inline": true
                 },
                 {
-                    "name": "High: 👥",
+                    "name": "High: 📈",
                     "value": `${body.data.high}`,
                     "inline": true
                 },
                 {
-                    "name": "Volume: 💫",
-                    "value": `${getReadableHashRate(body.data.hashrate)}`,
+                    "name": "Volume: 🕘",
+                    "value": `${body.data.hashrate}`,
                     "inline": true
                 },
                 {
-                    "name": "Last Buy: 👥",
+                    "name": "Last Buy: 💳",
                     "value": `${body.data.lastBuy}`,
                     "inline": true
                 },
                 {
-                  "name": "Last Sell: 👥",
+                  "name": "Last Sell: 🤑",
                   "value": `${body.data.lastSell}`,
                   "inline": true
                 }
