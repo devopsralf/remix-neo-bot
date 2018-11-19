@@ -16,7 +16,7 @@ function getReadableHashRate(hashrate){
       hashrate = hashrate / 1000;
       i++;
   }
-  return hashrate.toFixed(2) + byteUnits[i] + '/sec';
+  return (hashrate * 1).toFixed(2) + byteUnits[i] + '/sec';
 }
 
 client.on("ready", () => {
@@ -235,7 +235,7 @@ client.on("message", async message => {
                 },
                 {
                     "name": "Volume: 🕘",
-                    "value": `${body.data.hashrate}`,
+                    "value": `${body.data.volume}`,
                     "inline": true
                 },
                 {
